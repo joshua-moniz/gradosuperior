@@ -1,0 +1,74 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 3fr;
+}
+.grid-container3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+}
+.grid-container4 {
+    display: grid;
+   grid-template-columns: repeat(2,1fr);
+   justify-self: center;
+   grid-template-rows: repeat(2,1fr);
+   align-self: center;
+}
+.grid-container5 {
+    display: grid;
+   grid-template-areas:
+   "header header header"
+   "siderbar main main"
+   "footer footer footer";
+}
+.square2{
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+}
+.square3{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.square4{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+#header{
+    grid-area: header;
+}
+#main{
+    grid-area: main;
+}
+#siderbar{
+    grid-area: siderbar;
+}
+#footer{
+    grid-area: footer;  
+}
+.square1 {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+
+}
+.grid-container6 {
+    display: grid;
+}
+.square5{
+    width: 100px;
+    height: 100px;
+    background-color: darkorange;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
