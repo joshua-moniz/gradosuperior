@@ -1,0 +1,263 @@
+body {
+    display: flex;
+
+}
+
+.google {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    width: 300px;
+    height: 100px;
+    margin-top: 80px;
+    margin-left: 400px;
+}
+
+.busqueda {
+    position: absolute;
+    border: 6px;
+    border-radius: 20px;
+    align-content: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 350px;
+
+}
+
+text {
+    margin-top: 10px;
+}
+
+.caja {
+    background-color: rgba(202, 202, 202, 0.585);
+    border: 6px;
+    border-radius: 20px;
+    height: 40px;
+    width: 500px;
+    justify-content: center;
+    align-content: left;
+    position: absolute;
+}
+
+.central {
+    display: flex;
+    flex-direction: column;
+}
+
+.barra {
+    justify-content: center;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+.lupa {
+    position: absolute;
+    margin-top: 10px;
+    width: 20px;
+    margin-left: 15px;
+}
+
+.micro {
+    position: absolute;
+    margin-top: 10px;
+    width: 20px;
+    margin-left: 435px;
+}
+
+.camara {
+    position: absolute;
+    margin-top: 10px;
+    width: 20px;
+    margin-left: 465px;
+}
+
+.teclado {
+    position: absolute;
+    margin-top: 10px;
+    width: 20px;
+    margin-left: 400px;
+}
+
+.escribir {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+
+    border-radius: none;
+    align-content: center;
+    justify-content: center;
+    margin-top: px;
+    margin-left: 20px;
+    width: 350px;
+    height: 30px;
+}
+
+.buscargoogle {
+    align-content: center;
+    position: absolute;
+    justify-content: center;
+    border: 1px;
+    border-radius: 5px;
+    background-color: rgba(202, 202, 202, 0.288);
+    margin-top: 70px;
+    width: 120px;
+    height: 40px;
+    margin-left: 100px;
+    font-size: small;
+    color: rgba(49, 48, 48, 0.848);
+
+}
+
+.sort {
+    font-size: small;
+    color: rgba(49, 48, 48, 0.848);
+
+    align-content: center;
+    position: absolute;
+    justify-content: center;
+    border: 1px;
+    border-radius: 5px;
+    background-color: rgba(202, 202, 202, 0.288);
+    margin-top: 70px;
+    width: 120px;
+    height: 40px;
+    margin-left: 250px;
+}
+
+.overlay {
+    position: absolute;
+    justify-content: right;
+    align-content: right;
+    margin-left: 1300px;
+}
+
+.overlay2 {
+    position: absolute;
+    justify-content: right;
+    align-content: right;
+    margin-left: 1350px;
+}
+.icon{
+    position: absolute;
+    justify-content: right;
+    align-content: right;
+    margin-left: 1430px;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+.perfil{
+    position: absolute;
+    justify-content: right;
+    align-content: right;
+    margin-left: 1470px;
+    width: 50px;
+    height: 50px;
+    margin-top: px;
+}
+.footer{
+    background-color: rgba(202, 202, 202, 0.585);
+    height: 100px;
+    width: 1528px;
+    margin-top: 666px;
+    justify-content: left;
+    align-content: left;
+    position: absolute;
+    margin-left: none;
+    
+}
+.idioma{
+    align-content: center;
+    position: absolute;
+    justify-content: center;
+    margin-top:115px;
+    width: 150px;
+    height: 40px;
+    margin-left: 110px;
+    font-size: small;
+    color: rgba(49, 48, 48, 0.848);
+}
+.idiomas{
+    align-content: center;
+    position: absolute;
+    justify-content: center;
+    margin-top:115px;
+    width: 150px;
+    height: 40px;
+    margin-left: 230px;
+    font-size: small;
+    color: rgb(14, 55, 237);
+}
+.abajo{
+    display: flex;
+}
+.España{
+    justify-content: left;
+    align-content:flex-end ;
+    margin-left:10px;
+    margin-top: 680px;
+    position: absolute;
+    color: rgb(71, 70, 70);
+}
+.abajo2{
+    justify-content: left;
+    align-content:flex-end ;
+    margin-left:10px;
+    margin-top: 720px;
+    position: absolute;
+    color: rgb(71, 70, 70);
+}
+.abajo3{
+    justify-content: left;
+    align-content:flex-end ;
+    margin-left:120px;
+    margin-top: 720px;
+    position: absolute;
+    color: rgb(71, 70, 70);
+}
+.abajo4{
+    justify-content: left;
+    align-content:flex-end ;
+    margin-left:230px;
+    margin-top: 720px;
+    position: absolute;
+    color: rgb(71, 70, 70);
+}
+.abajo5{
+    justify-content: left;
+    align-content:flex-end ;
+    margin-left:320px;
+    margin-top: 720px;
+    position: absolute;
+    color: rgb(71, 70, 70);
+}
+.abajo6{
+    justify-content: left;
+    align-content:flex-end ;
+    margin-left:1200px;
+    margin-top: 720px;
+    position: absolute;
+    color: rgb(71, 70, 70);
+}
+.abajo7{
+    justify-content: left;
+    align-content:flex-end ;
+    margin-left:1300px;
+    margin-top: 720px;
+    position: absolute;
+    color: rgb(71, 70, 70);
+}
+.abajo8{
+    justify-content: left;
+    align-content:flex-end ;
+    margin-left:1400px;
+    margin-top: 720px;
+    position: absolute;
+    color: rgb(71, 70, 70);
+}
+hr{
+    position: absolute;
+    width: 1000px;
+    justify-content: left;
+    margin-left: none;
+}

@@ -1,0 +1,62 @@
+.container_flex{
+    display: flex;
+}
+.titol {
+    font-size: 3vw;
+}
+
+.paragraf {
+    font-size: 1.5vw;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.fondo{
+    background-color: rgb(0, 85, 255);
+}
+
+@media(max-width:600px) {
+    .fondo {
+        background-color: grey;
+    }
+}
+.cuadrado{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+.cuadrado2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 110);
+}
+.cuadrado3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 77, 0);
+}
+@media(max-width:600px) {
+    .container_flex{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.barra{
+    display: flex;
+    flex-direction: row;
+}
+@media(max-width:600px) {
+    .barra{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width:600px) {
+
+.tarjeta{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}

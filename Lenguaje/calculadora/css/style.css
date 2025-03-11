@@ -1,0 +1,50 @@
+body {
+    background-color: grey;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+}
+.contenedor{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    width: 400px;
+    gap: 10px;
+    height: 400px;
+    background-color: aqua;
+    border-radius: 2%;
+    border: 1px solid black;
+
+}
+#pantalla{
+    display: flex;
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    border: 1px ;
+    border-radius: 3%;
+    width: 100%;
+    height: 70px;
+    justify-content: right;
+    align-content: center;
+}
+button{
+ border-radius: 10%;
+ width: 100%;
+ height: 70px;
+gap: 10px;  
+border: none;
+background-color: white;
+}
+.numero{
+    align-content: center;
+    padding-right: 5%;
+}
+button:hover{
+    background-color: rgba(194, 194, 194, 0.823) ;
+    
+}
+.boton{
+    
+}

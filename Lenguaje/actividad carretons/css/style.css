@@ -1,0 +1,119 @@
+.container{
+    display: flex;
+}
+header {
+background: linear-gradient(white , rgb(164, 238, 164));
+        height: 150px;
+        width: 100%;
+}
+.imagenlogo{
+    margin-top: 10px;
+    margin-left: 10px;
+    justify-content: left;
+    width: 150px;
+}
+nav {
+    width: 100%;
+    align-content: center;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style: none;
+    padding:0;
+    width: 100%;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+a{
+    font-weight: bold;
+    color: black;
+border: 1px ;
+border-radius: 50px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: white;
+        padding: 10px;
+}
+p{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+input{
+    background-color: rgba(177, 177, 177, 0.63);
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    min-width:300px ;
+    max-width: 300px;
+}
+.containerdos{
+    display: flex;
+    margin-top: 5%;
+    flex-direction:column; 
+    margin-left: 10%;   
+}
+.containerglobal{
+    display: flex;
+    flex-direction: row;
+    
+}
+.containertres{
+    display: flex;
+    flex-direction:row;
+    background-color: rgba(177, 177, 177, 0.63);
+    border: 1px;
+    height: 300px;
+    width:40%;
+    margin-left: 15%;
+    border-radius: 15px;
+
+    margin-top: 8%;
+}
+
+.eleccion{
+    margin-left: 55%;
+    border: 1px;
+    border-radius: 15px;
+  background-color:  rgba(177, 177, 177, 0.63);
+  height: 300px;
+  width: 30%;
+}
+.formderecha{
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+    
+}
+.fila{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+#check{
+    width: 20px;
+    height: 20px;
+margin: 10px;
+}
+#imagenpc{
+    width: 50%;
+    height: 50%;
+    margin-right: 10%;
+}
+#enviar{
+    margin-top: 20%;
+    margin-left: 0%;
+}
+#aceptar{
+    background-color: green;
+    
+}
