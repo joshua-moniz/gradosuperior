@@ -44,5 +44,20 @@ Integer[] lista;
         }
         return devolver=-1;
     }
+    public void borrar(int num){
+        System.arraycopy(lista,0,lista,0, lista.length-1-num);
+        System.arraycopy(lista,num+1,lista,num, lista.length-1-num);
+        lista=Arrays.copyOf(lista,lista.length-1);
+
+
+    }
+    public static lista concatenar(lista l1,lista l2){
+
+        Integer[]newarray= Arrays.copyOf(l1.lista,l1.lista.length+l2.lista.length);
+        System.arraycopy(l2,0,newarray,l1.lista.length-1,newarray.length-1);
+        lista newlista= new lista();
+        newlista.insertEnd(newarray);
+        return newlista;
+    }
 
 }
