@@ -1,0 +1,146 @@
+use ddl;
+create table routing(
+idR int auto_increment,
+statusR enum ("up","null","down","other") default "up",
+codeR varchar(10),
+primary key (idR)
+);
+
+insert into routing (idR, statusR, codeR)
+values (1, "up", "1PCA");
+insert into routing (statusR, codeR)
+values
+('up', '1PCA'),
+('up', '2PCB'),
+('up', '3PCC'),
+('up', '4PCD'),
+(null, '5PCE'),
+('down', '6PCF'),
+('down', '7PCG'),
+('down', '8PCH'),
+('other', '9PCI'),
+('other', '10PCJ');
+
+
+/*2.1. Retrieve all routings with pk greater than 1*/
+select * from routing where idR >1;
+
+/*2.2. Retrieve all routings with pk greater than and equal to 1*/
+select * from routing where idR >=1;
+
+/*2.3. Retrieve all routings with pk greater than and equal to 1 and minor 5.*/
+select * from routing where idR >=1 and idR<4;
+
+/*2.3.1. Using comparative math signs*/
+select * from routing where idR>= 1 and idR<5;
+
+/*2.3.2. Using comparative between*/
+select * from routing where idR between 1 and 4;
+
+/*2.3.3. Using comparative in*/
+select * from routing where idR in (1,2,3,4);
+
+/*2.4. Retrieve all routings that are not in the previous result*/
+select * from routing where idR <1 and idR>4;
+
+/*2.4.1. Using comparative math signs*/
+select * from routing where idR >4;
+
+/*2.4.2. Using comparative not between*/
+select * from routing where idR not between 1 and 4 ;
+
+/*2.4.3. Using comparative not in*/
+select * from routinhg where idR not in (1,2,3,4);
+
+/*2.5. Parenthesis use. Retrieve all routings with pk greater than and equal to 1 and minor 5 and
+Also greater than 7 and minor or equal to 9*/
+select * from routing where (idR>=1 and idR<5) or (idR >7 and idR <=9);
+
+/*2.5.1. Using comparative math signs*/
+select * from routing where (idR>=1 and idR<5) or (idR >7 and idR <=9);
+
+/*2.5.2. Using comparative between*/
+select * from routing where (idR between 1 and 5) or (idR between 7 and 9);
+
+/*2.5.3. Using comparative in*/
+select * from routing where (idR in (1,2,3,4)) or (idR in (7,8,9));
+
+/*2.6. Parenthesis use. Retrieve all routings that are not in the previous result*/
+select * from routing where (not idR>=1 and not idR<5) or (not idR >7 and not idR <=9);
+
+/*2.6.1. Using comparative math signs*/
+select * from routing where (idR>=4 and idR<7) and (idR >9);
+
+/*2.6.2. Using comparative not between*/
+select * from routing where (idR not between 1 and 5) or (idR not between 7 and 9);
+
+/*2.6.3. Using comparative not in*/
+select * from routing where (idR not in (1,2,3,4)) or (idR not in (7,8,9));
+
+/*2.7. Parenthesis use. Retrieve all routings with pk greater than and equal to 2 and minor 4 or
+Also greater than 6 and minor or equal to 7*/
+select * from routing where (idR >=2 and idR <6) or (idR >6 and idR <=7);
+
+/*2.7.1. Using comparative math signs*/
+select * from routing where (idR >=2 and idR <6) or (idR >6 and idR <=7);
+
+/*2.7.2. Using comparative between*/
+select * from routing where (idR between 2 and 4) or (idR between 6 and 7);
+
+/*2.7.3. Using comparative in*/
+select * from routing where (idR in (2,3,4) ) or (idR in (6,7));
+
+/*2.8. Parenthesis use. Retrieve all routings that are not in the previous result*/
+select * from routing where (idR >6) or (idR >7);
+
+/*2.8.1. Using comparative math signs*/
+select * from routing where !(idR >=2 and idR <4) or !(idR >6 and idR <=7);
+
+/*2.8.2. Using comparative not between*/
+select * from routing where (idR not between 2 and 4) or (idR not between 6 and 7);
+
+/*2.8.3. Using comparative not in*/
+select * from routing where (idR not in (2,3,4) ) or (idR not in (6,7));
+
+/*2.9. Retrieve all routings with a null value in statusR column*/
+select * from routing where statusR is null;
+
+/*2.10. Retrieve all routings with no null value in statusR column*/
+select * from routing where statusR is not null;
+
+/*2.11. Retrieve all routings with value up or other in statusR column*/
+
+/*2.11.1. Using comparative math signs*/
+
+/*2.11.2. Using comparative in */
+select * from routing where statusR in ('up','other');
+
+/*2.11.3. Using comparative like */
+select * from routing where statusR like ('%up%') or statusR like('%other%');
+
+/*2.12. Retrieve all routings that are not in the previous result*/
+select * from routing where statusR not like ('%up%') or statusR not like('%other%');
+
+/* 2.13. Retrieve all routings with value p in the 2nd position in statusR column*/
+select * from routing where statusR like ('_p');
+
+-- 2.14. Retrieve all routings with value o in the 2nd position and n in the 4th position in statusR column
+select * from routing where statusR like ('_o_n');
+
+-- 2.15. Retrieve all routings starting by o and ending by r in statusR column
+select * from routing where statusR like ('_o%n');
+
+-- 2.17. Retrieve all routings containing a w but not as a first character nor the last one in statusR column
+select * from routing where statusR like ('%n%N');
+
+-- 2.19. Retrieve all routings containing some character of between 3 and 7 in codeR column
+select * from routing where codeR like ('3%') or codeR like ('4%') or codeR like ('5%') or codeR like ('6%') or codeR like ('7%');
+
+-- 2.20. Retrieve all routings not containing character of between 3 and 7 in codeR column
+select * from routing where codeR not like ('3%') and codeR not like ('4%') and codeR not like ('5%') and codeR not like ('6%') and  codeR not like ('7%');
+
+-- 2.21. Retrieve all routings containing some character of P , C in codeR column
+select * from routing where codeR like ('%p%') or codeR like ('%c%');
+
+-- 2.22. Retrieve all routings NOT containing some character of P , C in codeR column
+select * from routing where codeR not like ('%p%') or codeR not like ('%c%');
