@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class posicion {
+public enum posicion {
+    Defensa, Mediocampo,Extremo,Delantero,Portero
 }

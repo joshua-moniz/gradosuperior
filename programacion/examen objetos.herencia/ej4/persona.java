@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
 public class persona {
+    protected String nombre;
+    protected String  edad;
+
 }

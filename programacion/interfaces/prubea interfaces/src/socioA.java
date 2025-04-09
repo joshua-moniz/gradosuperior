@@ -1,4 +1,13 @@
-package PACKAGE_NAME;
+public class socioA implements Comparable {
+    int id;
+    String nombre;
 
-public class socioA {
+    @Override
+    public int compareTo(Object o) {
+        socio socio= (socio) o;
+        return ((socio)o).nombre.compareTo(nombre);
+    }
+
+
+
 }

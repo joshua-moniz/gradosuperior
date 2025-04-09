@@ -1,6 +1,6 @@
 
 function cambiartext(){
-document.getElementById("paragraf").innerText ="Ha cambiado";
+document.getElementById("boton").innerText ="Ha cambiado";
 }
 function cambiarcolor(){
     document.getElementById("paragraf2").style.color="orange"; 

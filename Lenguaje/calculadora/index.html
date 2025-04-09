@@ -1,33 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <link rel="stylesheet" href="css/style.css">
- <div class="contenedor">
-    <div id="pantalla"><div class="numero">0</div></div>
-    <div class="boton"><button onclick="writeNumber(this)">7</button></div>
-    <div class="boton"><button>8</button></div>
-    <div class="boton"><button>9</button></div>
-    <div class="boton"><button>+</button></div>
-    <div class="boton"><button>4</button></div>
-    <div class="boton"><button>5</button></div>
-    <div class="boton"><button>6</button></div>
-    <div class="boton"><button>-</button></div>
-    <div class="boton"><button>1</button></div>
-    <div class="boton"><button>2</button></div>
-    <div class="boton"><button>3</button></div>
-    <div class="boton"><button>*</button></div>
-    <div class="boton"><button>0</button></div>
-    <div class="boton"><button>/</button></div>
-    <div class="boton"><button>C</button></div>
-    <div id="boton"><button>=</button></div>
-<script src="js/"></script>
 
+<div class="contenedor">
+    <div id="pantalla"><p id="numero">0</p></div>
 
- </div>  
+    <div class="boton"><button onclick="escribir(this)">7</button></div>
+    <div class="boton"><button onclick="escribir(this)">8</button></div>
+    <div class="boton"><button onclick="escribir(this)">9</button></div>
+    <div class="boton"><button onclick="operar('+')">+</button></div>
+
+    <div class="boton"><button onclick="escribir(this)">4</button></div>
+    <div class="boton"><button onclick="escribir(this)">5</button></div>
+    <div class="boton"><button onclick="escribir(this)">6</button></div>
+    <div class="boton"><button onclick="operar('-')">-</button></div>
+    
+    <div class="boton"><button onclick="escribir(this)">1</button></div>
+    <div class="boton"><button onclick="escribir(this)">2</button></div>
+    <div class="boton"><button onclick="escribir(this)">3</button></div>
+    <div class="boton"><button onclick="operar('*')">*</button></div>
+
+    <div class="boton"><button onclick="escribir(this)">0</button></div>
+    <div class="boton"><button onclick="operar('/')">/</button></div>
+    <div class="boton"><button onclick="borrar()">C</button></div>
+    <div class="boton"><button onclick="calcular()">=</button></div>
+</div>
+
+<script src="js/index.js"></script>
+
 </body>
 </html>
