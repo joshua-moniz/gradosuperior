@@ -8,7 +8,6 @@ public class LectorMain {
         FileReader fr = null;
         File fichero2 = new File(fichero);
 
-        BufferedReader br = new BufferedReader(fichero2);
         String texto = "";
         try {
             fr = new FileReader(fichero);

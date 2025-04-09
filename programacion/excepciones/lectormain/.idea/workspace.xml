@@ -1,38 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ddf7f649-cf0d-4728-9cda-c81093f538bd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../Entornos/Activitat5/src/test/java/org/autenticacio/AutenticacioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Entornos/Activitat5/src/test/java/org/autenticacio/AutenticacioTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Entornos/Activitat5/src/test/java/org/meteorologia/GestorClimaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Entornos/Activitat5/src/test/java/org/meteorologia/GestorClimaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Entornos/Activitat5/src/test/java/org/meteorologia/ServeiMetereologicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Entornos/Activitat5/src/test/java/org/meteorologia/ServeiMetereologicTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Entornos/Activitat5/src/test/java/org/missatgeria/GestorMissatgesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Entornos/Activitat5/src/test/java/org/missatgeria/GestorMissatgesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Entornos/Activitat5/src/test/java/org/missatgeria/MissatgeriaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Entornos/Activitat5/src/test/java/org/missatgeria/MissatgeriaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Entornos/actividadEntorno/ActividadEntornos" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Entornos/actividadEntorno/ActividadEntornos" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Lenguaje/calculadora/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lenguaje/calculadora/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Lenguaje/calculadora/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lenguaje/calculadora/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Lenguaje/ejercicios practicar js/iindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lenguaje/ejercicios practicar js/iindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Lenguaje/ejercicios practicar js/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lenguaje/ejercicios practicar js/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../examen objetos.herencia/ej1/empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../examen objetos.herencia/ej1/empleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../examen objetos.herencia/ej1/entrenador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../examen objetos.herencia/ej1/entrenador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../examen objetos.herencia/ej1/equipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../examen objetos.herencia/ej1/equipo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../examen objetos.herencia/ej1/jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../examen objetos.herencia/ej1/jugador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../examen objetos.herencia/ej1/liga.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../examen objetos.herencia/ej1/liga.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../examen objetos.herencia/ej1/mainprueba.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../examen objetos.herencia/ej1/mainprueba.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../examen objetos.herencia/ej1/partido.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../examen objetos.herencia/ej1/partido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../examen objetos.herencia/ej1/posicion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../examen objetos.herencia/ej1/posicion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../examen objetos.herencia/ej2/cola.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../examen objetos.herencia/ej2/cola.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../examen objetos.herencia/ej2/ej2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../examen objetos.herencia/ej2/ej2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../examen objetos.herencia/ej2/lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../examen objetos.herencia/ej2/lista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../examen objetos.herencia/ej3/cubo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../examen objetos.herencia/ej3/cubo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../examen objetos.herencia/ej3/piramide.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../examen objetos.herencia/ej3/piramide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../examen objetos.herencia/ej3/poliedro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../examen objetos.herencia/ej3/poliedro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../examen objetos.herencia/ej4/alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../examen objetos.herencia/ej4/alumno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../examen objetos.herencia/ej4/empleados.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../examen objetos.herencia/ej4/empleados.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../examen objetos.herencia/ej4/persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../examen objetos.herencia/ej4/persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Excepciones/src/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Excepciones/src/Gato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../actividad10.1/src/si.java" beforeDir="false" afterPath="$PROJECT_DIR$/../actividad10.1/src/si.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../interfaces/prubea interfaces/src/socio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interfaces/prubea interfaces/src/socio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../interfaces/prubea interfaces/src/socioA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interfaces/prubea interfaces/src/socioA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +16,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2vRtURsetYiORM7wgdVGsrmw7oH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -55,6 +29,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/admin/Desktop/fp/gradosuperior/programacion/excepciones/lectormain/src/Main.java",
     "vue.rearranger.settings.migration": "true"
@@ -77,6 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1744119732039</updated>
       <workItem from="1744119733163" duration="105000" />
+      <workItem from="1744207319057" duration="931000" />
     </task>
     <servers />
   </component>
